@@ -1,6 +1,7 @@
-# trezor-crypto
+# esp-trezor-crypto
 
-[![Build Status](https://travis-ci.org/trezor/trezor-crypto.svg?branch=master)](https://travis-ci.org/trezor/trezor-crypto) [![gitter](https://badges.gitter.im/trezor/community.svg)](https://gitter.im/trezor/community)
+ESP-IDF port of the [Trezor Crypto Library](https://github.com/trezor/trezor-crypto).
+The project works as an esp-idf component.
 
 Heavily optimized cryptography algorithms for embedded devices.
 

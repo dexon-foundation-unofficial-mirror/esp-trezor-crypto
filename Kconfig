@@ -1,0 +1,45 @@
+menu "Trezor Crypto Library"
+
+    config USE_ETHEREUM
+        bool "Support Ethereum"
+        default y
+        help
+            If defined, Ethereum is supported.
+
+    config USE_GRAPHENE
+        bool "Support Graphene"
+        default y
+        help
+            If defined, Graphene is supported.
+
+    config USE_KECCAK
+        bool "Support Keccak"
+        default y
+        help
+            If defined, Keccak is supported.
+
+    config USE_MONERO
+        bool "Support Monero"
+        default y
+        help
+            If defined, Monero is supported.
+
+    config USE_NEM
+        bool "Support NEM"
+        default y
+        help
+            If defined, NEM is supported.
+
+    config USE_CARDANO
+        bool "Support Cardano"
+        default y
+        help
+            If defined, Cardano is supported.
+
+    config USE_CHACHA20POLY1305
+        bool "Support Chacha20poly1305"
+        default y
+        help
+            If defined, Chacha20poly1305 is supported.
+
+endmenu # "Trezor Crypto Library"
